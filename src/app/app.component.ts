@@ -3,7 +3,6 @@ import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { Kitchen } from '../assets/data/kitchen'; 
 
@@ -13,7 +12,7 @@ import { Kitchen } from '../assets/data/kitchen';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  //rootPage: any = HomePage;
 
   pages: Array<{title:String, items:any}>;
 
@@ -22,14 +21,19 @@ export class MyApp {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
-    this.pages = this.m_kitchen.KitchenMenu();    
+    this.pages = this.m_kitchen.KitchenMenu();   
   }
 
   initializeApp() {
     this.platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
-      this.statusBar.styleDefault();
+
+      // set status bar to white
+      this.statusBar.backgroundColorByHexString('#4d61a5');
+      //this.statusBar.styleDefault();
+      
+      this.nav.setRoot(ListPage, {items: this.m_kitchen.pachadi()});
       this.splashScreen.hide();
     });
   }

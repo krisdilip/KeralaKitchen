@@ -9,7 +9,7 @@ export class Kitchen {
                     {name:"Thakkali Thayir Pachadi",imgSrc:"./assets/img/tomatopachadi.jpg",href:"#/app/item/pachadi/1"},
                     {name:"Mathan Pachadi",imgSrc:"./assets/img/Mathan Pachadi.jpg",href:"#/app/item/pachadi/2"},
                     {name:"Vendakkai Puli Pachadi",imgSrc:"./assets/img/vendakkai-puli-pachadi.jpg",href:"#/app/item/pachadi/3"},
-                    {name:"Mangai Pachadi",imgSrc:"./assets/img/mangai pachadi.jpg",href:"#/app/item/pachadi/4"},
+                    {name:"Manga Pachadi",imgSrc:"./assets/img/mangai pachadi.jpg",href:"#/app/item/pachadi/4"},
                     {name:"Pineapple Pachadi",imgSrc:"./assets/img/pineapple_pachadi.jpg",href:"#/app/item/pachadi/5"},
                     {name:"Beetroot Kichadi",imgSrc:"./assets/img/beatroot_kichadi.jpg",href:"#/app/item/pachadi/6"},
                     {name:"Mambazha Pachadi",imgSrc:"./assets/img/MambhazhaPachadi.jpg",href:"#/app/item/pachadi/7"}],
@@ -496,7 +496,7 @@ export class Kitchen {
     sambar() {
         return {
             title:"Sambar/Pulissery",
-            items:[{name:"Sambar Palakkad Style",imgSrc:"./assets/img/sambar.jpg",href:"#/app/item/sambar/0"},
+            items:[{name:"Sambar",imgSrc:"./assets/img/sambar.jpg",href:"#/app/item/sambar/0"},
                 {name:"Navarathri Pulinkari",imgSrc:"./assets/img/Navarathripulinkari.jpg",href:"#/app/item/sambar/1"},
                 {name:"Rasakalan",imgSrc:"./assets/img/rasakalan.jpg",href:"#/app/item/sambar/2"},
                 {name:"Moru Kootan",imgSrc:"./assets/img/moru_kootan.jpg",href:"#/app/item/sambar/3"},
@@ -837,7 +837,7 @@ export class Kitchen {
 					{name:"Idichhu Pizhinja Payasam",imgSrc:"./assets/img/idichu_pizhinja_payasam.jpg",href:"#/app/item/payasam/2"},
 					{name:"Nendram Pazha Payasam",imgSrc:"./assets/img/nendram_pazha_payasam.jpg",href:"#/app/item/payasam/3"},
 					{name:"Semiya Payasam",imgSrc:"./assets/img/semiya_payasam.jpg",href:"#/app/item/payasam/4"},
-					{name:"Thengai Payasam",imgSrc:"./assets/img/thengai_payasam.jpg",href:"#/app/item/payasam/5"},
+					{name:"Thenga Payasam",imgSrc:"./assets/img/thengai_payasam.jpg",href:"#/app/item/payasam/5"},
 					{name:"Paruppu Payasam",imgSrc:"./assets/img/parippu_payasam.png",href:"#/app/item/payasam/6"},
 					{name:"Chakka Pradhaman",imgSrc:"./assets/img/chakka_pradhaman.jpg",href:"#/app/item/payasam/7"}],
 			itemDetails:[
@@ -1021,7 +1021,7 @@ export class Kitchen {
 		return {
 			title:"Pickles",
 			items:[{name:"Puli Inji",imgSrc:"./assets/img/puli_inji.jpg",href:"#/app/item/pickles/0"},
-				   {name:"Mangai Curry",imgSrc:"./assets/img/mangai_curry.jpg",href:"#/app/item/pickles/1"}],
+				   {name:"Manga Curry",imgSrc:"./assets/img/mangai_curry.jpg",href:"#/app/item/pickles/1"}],
 			itemDetails:[
 				{Ingredients:[
 					"Ginger – ¼ cup, very finely chopped",

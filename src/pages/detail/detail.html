@@ -9,16 +9,13 @@
     <button ion-button menuToggle >
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Details</ion-title>
+    <ion-title>{{itemName}}</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content class="card-background-page">
+<ion-content class="card-background-page">   
     <ion-card>
       <ion-card-content>
-        <ion-card-title>{{itemName}}</ion-card-title>
-        <img src="{{itemImageSrc}}"/>
-         
         <!-- Ingredients -->
         <ion-card-title>Ingredients</ion-card-title>
         <h2 *ngFor="let item of itemDetail.Ingredients; let i = index" >{{i+1}}. {{item}}</h2>	
